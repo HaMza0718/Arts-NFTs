@@ -1,7 +1,6 @@
 'use strict';
 
 
-
 /**
  * NAVBAR TOGGLE FOR MOBILE
  */
@@ -18,7 +17,6 @@ navToggler.addEventListener("click", function () {
 
 /**
  * HEADER & BACK TOP BTN
- * header and back top btn visible when window scroll down to 200px
  */
 
 const header = document.querySelector("[data-header]");
