@@ -26,31 +26,37 @@ const Navbar = () => {
           <nav className={`navbar ${nav}`}>
             <ul className="navbar-list">
               <li>
-                <a href="#" className="navbar-link label-lg link:hover">
+                <a
+                  href="/"
+                  className="navbar-link label-lg link:hover"
+                >
                   Home
                 </a>
               </li>
 
               <li>
-                <a href="#" className="navbar-link label-lg link:hover">
+                <a
+                  href="/Collection"
+                  className="navbar-link label-lg link:hover"
+                >
                   Explore
                 </a>
               </li>
 
               <li>
-                <a href="#" className="navbar-link label-lg link:hover">
-                  Wallet
-                </a>
-              </li>
-
-              <li>
-                <a href="#" className="navbar-link label-lg link:hover">
+                <a
+                  href="Creator"
+                  className="navbar-link label-lg link:hover"
+                >
                   About Us
                 </a>
               </li>
 
               <li>
-                <a href="#" className="navbar-link label-lg link:hover">
+                <a
+                  href="Contact"
+                  className="navbar-link label-lg link:hover"
+                >
                   Contact
                 </a>
               </li>
